@@ -508,6 +508,7 @@ li{
     width: 312px;
     height: 148px;
     border-radius: 6px;
+    object-fit: cover;
 }
 
 .contentAdsRight .contentItemAds{
@@ -536,6 +537,7 @@ li{
     display: grid; 
     grid-template-columns: auto auto auto;
     grid-gap: 16px 24px;
+    
 }
 
 .listContent .contentItemAds img{
@@ -587,6 +589,7 @@ li{
 
 .contentLater{
     width: var(--widthContainer);
+    /* position: relative; */
 }
 
 .contentLater h1{
@@ -625,6 +628,16 @@ li{
 }
 
 .contentLater>img{
-    display: flex;
-    justify-content: center;
+    object-fit: cover;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.contentLater>p:last-child{
+    font-family: 'SVN-Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 133%;
+    color: #000000;  
 }
