@@ -3,10 +3,12 @@
     border: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
-html{
-    scrollbar-visibility: hidden; 
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
 }
 
 :root{
@@ -32,70 +34,81 @@ a{
 li{
     list-style-type: none;
 }
+.ml{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
 
 .headerMenu{
     display: flex;
     width:100vw;
-    height: 64.03px;
+    height: 6.4rem;
     margin: 0 auto  ;
     background: #fff;
     align-items: center;
     justify-content: center;
     box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.1);
+    font-size: 1.4rem;
 }
 
-.headerMenu img{
+/* .headerMenu img{
     margin-left: 200px;
-}
+} */
 
 .headerMenu a{
     color: black;
-    line-height: 64.03px;
-    padding: 0 20px;
+    line-height: 6.4rem;
+    padding: 0 2rem;
     
 }
 
 
 .headerFooter{
     position: relative;
+    margin: 0 auto;
+    width: 100%;
 }
 
 
+.headerFooter img{
+    width: 100%;
+}
+
 .backGR{
     position: absolute;
-    top:130px;
-    left: 96px;
+    top:13rem;
+    left: 9.6rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .descript{
-    width: 545px;
+    width: 54.5rem;
 }
 
 .descParagraph,.descriptHeading{
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight: 700;
-    line-height: 64px;
+    line-height: 6.4rem;
     
 }
 .descParagraph{
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 500;
-    line-height: 21.28px;
-    margin-top: 16px;
-    margin-bottom: 48px;
+    line-height: 2rem;
+    margin-top: 1.6rem;
+    margin-bottom: 4.8rem;
 }
 
 .btn {
-    width: 244px;
-    height: 48px;
-    font-size: 16px;
+    width: 24.4rem;
+    height: 4.8rem;
+    font-size: 1.6rem;
     font-weight: 700;
     color: #fff;
     background-color: #0367B4;
-    border-radius: 60px;
+    border-radius: 6rem;
     position: absolute;
     
 }
@@ -104,9 +117,13 @@ li{
 /* about  */
 .about{
     display: flex;
-    margin: 0 199px 0 98px;
+    width: 100%;
+    margin: 0 auto;
 }
 
+.action button{
+    display: none;
+}
 .descRight span{
     font-weight: 600;
     font-size: 16px;
@@ -147,6 +164,10 @@ li{
     margin-top: 64px;
 }
 
+ 
+.action img{
+    /* margin: 0 au; */
+}
 .action > span{
     position: absolute;
     font-weight: 600;
@@ -178,7 +199,7 @@ li{
     left: 50%;
     transform: translateX(-35%);
     top: 147px;
-    width: var(--widthContainer);
+    width:100%;
     gap: 24px;
     flex-wrap: wrap;
 
@@ -186,7 +207,7 @@ li{
 
 .boxConnect{
     width: 472px;
-    height: 166px;
+    max-height: 166px;
     border-radius: 6px;
     background-color: #fff;
    
@@ -203,8 +224,8 @@ li{
 
 .boxConnect  span{
     font-weight: 800;
-    font-size: 20px;
-    margin-left: 100px;
+    font-size: 2rem;
+    margin-left: 10rem
    
 }
 
@@ -252,10 +273,11 @@ li{
 
 .containerEvent{
     display: flex;
-    width: var(--widthContainer);
+    width: 100%;
     margin: 0 auto;
     justify-content: center;
     margin-top: 56px;
+    flex-wrap: wrap;
 }
 
 .containerImg{
@@ -305,7 +327,7 @@ li{
 
 .footerItem{
     margin: 0 auto;
-    width: 1000px;
+    width: 100vw;
     border-bottom: 1px solid #D3D3D3;
     position: relative;
 }
@@ -327,7 +349,7 @@ li{
 
 .footerUL li a {
     color: #000;
-
+    font-size: 1.4rem;
 }
 
 .footerMenu{
@@ -366,7 +388,7 @@ li{
 .contact{
     display: flex;
     margin: 0 auto;
-    width: 1000px;
+    width: 100vw;
     justify-content: space-between;
     margin-top: 24px;
 }
@@ -436,13 +458,12 @@ li{
     /* width: 1000px; */
     display: flex;
     margin: 0 auto;
+    flex-direction: column;
 }
 
 .listNav ul{
     display: flex;
     text-align: left;
-    margin-left: 50%;
-    transform: translateX(-66%);
 }
 
 /* .listNav ul li:first-child{
@@ -590,10 +611,7 @@ li{
     color: #8F8F8F;
 }
 
-.idPage ul li:first-child{
-    margin-left: 18%;
-    
-}
+
 
 .idPage ul img{
     margin: 0 14px;
@@ -675,3 +693,8 @@ li{
     line-height: 133%;
     color: #000000;  
 }
+
+.menuRespose{
+    display: none;
+}
+

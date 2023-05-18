@@ -1,0 +1,266 @@
+/* mobile & tablet  */
+@media (max-width:1023px){
+    .ml{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .headerMenu a{
+        font-size: 1.3rem;
+        padding: 0 1.4rem;
+        line-height: 0;
+    }
+
+    .headerFooter{
+        display: flex;
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+    .imageLeft,
+    .imageRight img{
+        width: 50%;
+    }
+
+    .descript{
+        font-size:40%;
+    }
+    .descRight{
+        font-size: 1.5rem;
+    }
+    .headerFooter img{
+        /* width: 100%;
+        height: 100%; */
+    }
+    .backGR{
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .contentContainer,.bg2{
+        width: 100%;
+    }
+    .boxConnect{
+        width: 100%;
+        height: 10%;
+    }
+    .boxConnect p{
+        margin: 0 auto;
+    }
+}
+/* tablet  */
+@media (min-width:740px) and (max-width:1023px){
+    .descParagraph, .descriptHeading{
+        font-size: 1.8rem;
+    }
+    .descParagraph{
+        font-size: 1.3rem;
+    }
+    .btn{
+        font-size: 1.2rem;
+    }
+    .action > h1{
+        font-size: 1.8rem;
+    }
+    .boxConnect{
+        width: 300px;
+        box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.1);
+    }
+    
+    .boxConnect p,
+    .boxConnect span{
+        font-size: 1.5rem;
+    }
+    .boxConnect span{
+        margin: 0;
+    }
+    .boxConnect p{
+        min-width: 0;
+    }
+
+    .boxAction{
+        top: 112px;
+        left: 45%;
+    }
+    
+    .location{
+        left: 0;
+        transform: translateX(0);
+    }
+
+    .locationDes{
+        
+        transform: translateX(-50%);
+    }
+
+    .locationDes div:first-child{
+        margin-left: 20px;
+    }
+
+    .contact{
+        display: none;
+    }
+
+    .footerItem{
+        border-bottom: none;
+        margin-left: 20px;
+    }
+
+    .contentItemAds{
+        display: block;
+    }
+
+    
+}
+/* mobile */
+@media (max-width:739px) {
+    .descParagraph, .descriptHeading{
+        font-size: 1.3rem;
+    }
+
+    .btn{
+        font-size: 1.1rem;
+        padding: 5px 9px;
+    }
+    .headerMenu{
+        display: none;
+    }
+    .headerContainer{
+        position: relative;
+    }
+    .menuRespose{
+        display: flex;
+        position: absolute;
+        top: 0 ;
+        
+        width:100vw;
+        height: 36px;
+        background-color: #fff;
+        z-index: 1000;
+        justify-content: space-between;
+    }
+    .menuRespose img{
+        width: 36px;
+        margin-left: 30px;
+    }
+
+    .logoResp{
+        margin-right: 30px;
+    }
+    
+    .imageLeft img,
+    .descParagraph{
+        display: none;
+    }
+
+    .imageLeft img{
+        width: 0;
+    }
+
+    .action .boxConnect{
+        display: none;
+    }
+
+    .action button{
+        display: block;
+        background-color: #fff;
+        color: #000;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+
+    .newEvent h1{
+        font-size: 1.3rem;
+    }
+
+    .boxLocation,
+    .location img{
+        display: none;
+    }
+
+    .footerMenu{
+        margin-top: 30px;
+    }
+
+    .footerUL li{
+        display: none;
+    }
+    .footerUL img{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .footerItem{
+        margin-left: 20px;
+    }
+
+    .contact{
+        flex-direction: column;
+    }
+
+    .desContact{
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .descRight{
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    .descRight p{
+        width: 100%;
+        font-size: 1.3rem;
+    }
+
+    .imageLeft{
+        width: 0;
+    }
+
+    .backGR{
+        left: 0;
+    }
+
+    .listContent{
+        display: block;
+    }
+    .contentAds{
+        display: none;
+    }
+
+    .astraContent{
+        margin-top: 30px;
+    }
+
+    .footerContainer h1{
+        font-size: 1.5rem;
+    }
+
+    .idPage{
+        display: none;
+    }
+
+    .contentLater h1{
+        font-size: 1.4rem;
+        margin-top: 40px;
+    }
+
+    .contentLater {
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .paragraphLater{
+        font-size: 1.3rem;
+    }
+
+    .contentLater>img{
+        width: 100%;
+    }
+
+    .contentItemAds{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}
