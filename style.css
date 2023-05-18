@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scrollbar-visibility: hidden; 
+}
+
 :root{
     --widthContainer:1366px;
     --heightHeader:64.03px;
@@ -31,7 +35,7 @@ li{
 
 .headerMenu{
     display: flex;
-    width:var(--widthContainer);
+    width:100vw;
     height: 64.03px;
     margin: 0 auto  ;
     background: #fff;
@@ -40,10 +44,14 @@ li{
     box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.1);
 }
 
+.headerMenu img{
+    margin-left: 200px;
+}
+
 .headerMenu a{
     color: black;
     line-height: 64.03px;
-    padding: 0 52px;
+    padding: 0 20px;
     
 }
 
@@ -296,7 +304,8 @@ li{
 }
 
 .footerItem{
-    margin-left: 202px;
+    margin: 0 auto;
+    width: 1000px;
     border-bottom: 1px solid #D3D3D3;
     position: relative;
 }
@@ -310,7 +319,7 @@ li{
 
 .footerUL li{
     display: inline-block;
-    margin-right: 70px;
+    margin-right: 36px;
     line-height: 64px;
     
 
@@ -355,10 +364,10 @@ li{
 
 /* contact  */
 .contact{
-    margin-left: 202px;
     display: flex;
+    margin: 0 auto;
+    width: 1000px;
     justify-content: space-between;
-    margin-right: 292px;
     margin-top: 24px;
 }
 
@@ -394,7 +403,7 @@ li{
 }
 
 .locationDes{
-    margin-left: 107px;
+    margin-left: 80px;
     display: flex;   
 
 }
@@ -432,7 +441,13 @@ li{
 .listNav ul{
     display: flex;
     text-align: left;
+    margin-left: 50%;
+    transform: translateX(-66%);
 }
+
+/* .listNav ul li:first-child{
+    margin-left: 200px;
+} */
 
 .listNav ul li{
     padding: 30px 18px;
@@ -546,6 +561,7 @@ li{
 }
 
 .listContent {
+    /* margin-left: 32px; */
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -562,7 +578,7 @@ li{
 
 .idPage ul{
     display: flex;
-
+    margin-top: 50px;
 }
 
 .idPage ul li a{
@@ -572,6 +588,11 @@ li{
     font-size: 16px;
     line-height: 132%;
     color: #8F8F8F;
+}
+
+.idPage ul li:first-child{
+    margin-left: 18%;
+    
 }
 
 .idPage ul img{
@@ -588,8 +609,21 @@ li{
 }
 
 .contentLater{
-    width: var(--widthContainer);
+    width: 948px;
     /* position: relative; */
+}
+
+
+.contentLater >a{
+    font-family: 'SVN-Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 133%;
+    color: #000000;
+    text-transform: uppercase;
+    border-left: 7px solid  #FF6D34;
+    padding-left:8px ;
 }
 
 .contentLater h1{
