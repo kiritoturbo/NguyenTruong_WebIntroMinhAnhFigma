@@ -319,4 +319,8 @@
         margin-left: 50%;
         transform: translateX(-50%);
     }
+
+    .descript .btn{
+        width: auto;
+    }
 }
