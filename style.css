@@ -11,13 +11,10 @@ html {
     line-height: 1.6rem;
 }
 
-:root{
-    --widthContainer:1366px;
-    --heightHeader:64.03px;
-}
+
 .container{
-    /* padding-left: 1.5rem;
-    padding-right: 1.5rem; */
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     width: 100%;
 }
 
@@ -83,9 +80,9 @@ li{
     justify-content: space-between;
 }
 
-.descript{
+/* .descript{
     width: 54.5rem;
-}
+} */
 
 .descParagraph,.descriptHeading{
     font-size: 4.8rem;
@@ -318,6 +315,7 @@ li{
 
 /* footer  */
 .footerContainer{
+    position: relative;
     margin-top: 219px;
     height: 442px;
     width: 100%;
@@ -407,7 +405,7 @@ li{
 /* location  */
 .location{
     position: absolute;
-    top: -100%;
+    top: -20%;
     left: 50%;
     transform: translateX(-50%);
     
