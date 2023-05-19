@@ -292,7 +292,7 @@
     }
 
     .astraContent{
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
     .footerContainer h1{
@@ -311,6 +311,7 @@
     .contentLater {
         width: 100%;
         margin-left: 30px;
+        margin-top: 50px;
     }
 
     .paragraphLater{
@@ -348,8 +349,9 @@
         font-size: 1.2rem;
     }
 
-    .menuRespose>img:hover .menuHover{
+    .menuRespose:hover  .menuHover{
         display: block;
+        cursor: pointer;
     }
 
     
