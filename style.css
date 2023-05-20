@@ -438,7 +438,7 @@ li{
 
 .locationDes img{
     margin-right: 12px;
-
+    min-width: 36px;
 }
 
 .locationDesLabel{
