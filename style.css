@@ -687,8 +687,9 @@ li{
 
 .contentLater>img{
     object-fit: cover;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    
+    margin-left: auto;
+    /* transform: translateX(-50%); */
 }
 
 .contentLater>p:last-child{

@@ -3,6 +3,9 @@
     .imageRight{
         width: 152%;
     }
+    .contentLater>img{
+        margin-left: 5%;
+    }
 }
 
 @media (max-width:1023px){
@@ -74,6 +77,7 @@
         font-size: 1.8rem;
     }
 
+    
     .contentLater{
         width: 100%;
     }
@@ -310,7 +314,7 @@
 
     .contentLater {
         width: 100%;
-        margin-left: 30px;
+        /* margin-left: 30px; */
         margin-top: 50px;
     }
 
